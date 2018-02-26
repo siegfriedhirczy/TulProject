@@ -14,6 +14,8 @@
 		539019F02033818700B9C41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539019EE2033818700B9C41B /* LaunchScreen.storyboard */; };
 		539019FB2033818700B9C41B /* Test_AandPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539019FA2033818700B9C41B /* Test_AandPTests.swift */; };
 		53901A062033818700B9C41B /* Test_AandPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53901A052033818700B9C41B /* Test_AandPUITests.swift */; };
+		53901A14203382E500B9C41B /* TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53901A13203382E500B9C41B /* TextViewDelegate.swift */; };
+		53901A162033915600B9C41B /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53901A152033915600B9C41B /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		53901A012033818700B9C41B /* Test AandPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test AandPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53901A052033818700B9C41B /* Test_AandPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_AandPUITests.swift; sourceTree = "<group>"; };
 		53901A072033818700B9C41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53901A13203382E500B9C41B /* TextViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewDelegate.swift; sourceTree = "<group>"; };
+		53901A152033915600B9C41B /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				539019E52033818700B9C41B /* AppDelegate.swift */,
 				539019E72033818700B9C41B /* ViewController.swift */,
+				53901A152033915600B9C41B /* InputViewController.swift */,
 				539019E92033818700B9C41B /* Main.storyboard */,
+				53901A13203382E500B9C41B /* TextViewDelegate.swift */,
 				539019EC2033818700B9C41B /* Assets.xcassets */,
 				539019EE2033818700B9C41B /* LaunchScreen.storyboard */,
 				539019F12033818700B9C41B /* Info.plist */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				539019E82033818700B9C41B /* ViewController.swift in Sources */,
+				53901A14203382E500B9C41B /* TextViewDelegate.swift in Sources */,
 				539019E62033818700B9C41B /* AppDelegate.swift in Sources */,
+				53901A162033915600B9C41B /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
